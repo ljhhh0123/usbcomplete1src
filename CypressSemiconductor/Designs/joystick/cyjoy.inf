@@ -1,0 +1,92 @@
+
+[Version]
+Signature="$CHICAGO$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+provider=%Provider%
+LayoutFile=layout.inf, layout1.inf
+
+[ClassInstall]
+Addreg=Class.AddReg
+
+[Class.AddReg]
+HKR,,,,%MediaClassName%
+HKR,,Icon,,"-1"
+HKR,,Installer,,mmci.dll
+
+[Manufacturer]
+%MfgName%=Cypress
+
+[Cypress]
+%NonGameport.DeviceDesc%=NonGameport, NONGAME_Dev0
+%USB\VID_04B4&PID_0F1F.DeviceDesc%=CYUSBJSTICK, USB\VID_04B4&PID_0F1F
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+MSJSTICK.CopyList = 11          ; LDID_SYS
+GAMEPORT.CopyList = 11          ; LDID_SYS
+CYUSBJSTICK.CopyList = 11       ; LDID_SYS
+;---------------------------------------------------------------;
+
+
+[NonGameport]
+CopyFiles=MSJSTICK.CopyList
+AddReg=JOYSTICK.AddReg, NonGameport.AddReg
+UpdateInis=MSJSTICK.UpdateInis
+
+
+;---------------------------------------------------------------;
+
+[CYUSBJSTICK]
+CopyFiles=CYUSBJSTICK.CopyList,MSJSTICK.CopyList
+AddReg=CYUSBJSTICK.AddReg
+UpdateInis=MSJSTICK.UpdateInis
+
+[CYUSBJSTICK.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,"hidusb.sys"
+HKLM,System\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\CypressUSBSideWinder,OEMName,,"Cypress USB SideWinder Joystick"
+HKLM,System\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\CypressUSBSideWinder,OEMCallOut,,joyhid.vxd
+HKLM,System\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\CypressUSBSideWinder,OEMData,3,03,00,08,00,08,00,00,00
+HKU,System\CurrentControlSet\control\MediaProperties\PrivateProperties\Joystick\OEM\CypressUSBSideWinder,,,
+
+[CYUSBJSTICK.CopyList]
+hidusb.sys
+hidclass.sys
+hidparse.sys
+
+;---------------------------------------------------------------;
+
+[MSJSTICK.CopyList]
+vjoyd.vxd,,4
+msjstick.drv,,
+
+[GAMEPORT.CopyList]
+msanalog.vxd,,
+
+[JOYSTICK.AddReg]
+HKR,,DevLoader,,mmdevldr.vxd
+HKR,Drivers,MIGRATED,,0
+HKR,Drivers\joystick,,,
+
+[NonGameport.AddReg]
+;Setup vjoyd and msjstick without needing a gameport
+HKR,,Driver,,vjoyd.vxd
+HKR,Drivers\joystick\msjstick.drv,Description,,%NonGameport.DeviceDesc%
+HKR,Drivers\joystick\msjstick.drv,Driver,,msjstick.drv
+HKR,Drivers,SubClasses,,"joystick"
+
+[MSJSTICK.UpdateInis]
+system.ini,drivers,"joystick="
+
+;---------------------------------------------------------------;
+
+[Strings]
+Provider="Cypress Semiconductor"
+MfgName="Cypress Semiconductor"
+*PNPB02F.DeviceDesc="Gameport Joystick"
+NonGameport.DeviceDesc="Non-Gameport Joystick"
+MediaClassName="Sound, video and game controllers"
+USB\VID_04B4&PID_0F1F.DeviceDesc="Cypress USB SideWinder Joystick"

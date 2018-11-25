@@ -1,0 +1,159 @@
+
+; cypress.INF
+; - Installs core mouse support files, etc.
+; - contains cypress USB mouse driver 
+
+; Copyright (c) 1997 Cypress Semiconductor
+
+[Version]
+Signature="$CHICAGO$"
+Class=Mouse
+ClassGUID={4d36e96f-e325-11ce-bfc1-08002be10318}
+Provider=%Provider%
+LayoutFile=layout.inf
+SetupClass=Base
+
+[DestinationDirs]
+DefaultDestDir = 11		; LDID_SYS
+System.Copy    = 11		; LDID_SYS
+VxD.Copy       = 22	        ; LDID_VMM32
+INF.Copy       = 17		; LDID_INF
+Pointer.Copy   = 36		; LDID_Mouse
+MSUSBMOUSE.Copy= 11		; LDID_SYS
+
+
+
+; Base Install Sections 
+; ---------------------------------------------------------
+[BaseWinOptions]
+MouseBase
+
+[MouseBase]
+CopyFiles=System.Copy, VxD.Copy
+DelFiles=System.DelFile
+UpdateInis=VMouse.Ini
+Addreg=VMouse.Reg
+
+[System.Copy]
+mouse.drv
+msmouse.vxd
+
+[VxD.Copy]
+vmouse.vxd
+
+[VMouse.Ini]
+wininit.ini, CombineVxDs,,"%22%\vmouse.vxd=%11%\vmm32.vxd"
+
+[VMouse.Reg]
+HKLM,System\CurrentControlSet\Control\VMM32Files,vmouse.vxd,1,
+
+[System.DelFile]
+vmouse.386
+lmouse.386
+msmini.386
+
+; The section below has to be empty. The Mouse classinstaller
+; relys on it. Don't add anything to this section.
+[EmptySection]
+
+
+; Install class "Mouse"
+; ---------------------------------------------------------
+[ClassInstall]
+Addreg=MouseReg
+
+[MouseReg]
+HKR,,,,%MouseClassName%
+HKR,,Installer,,"SetupX.Dll, Mouse_ClassInstaller"
+HKR,,Icon,,"-2"
+
+[SysCfgClasses]
+Mouse,%NoMouse%,ROOT,,%MouseClassName%  ; Default to no mouse when no mouse
+	                                ; detected or Setup /i is run
+
+
+; Win3.1 drivers to preserve
+; ---------------------------------------------------------
+[mouse.update.fail]
+obmouse.drv,*,*		; HP OmniBook mouse
+felix.drv,*,*		; Altra Felix mouse
+mwtsumm.drv,*,*		; SummaSketch WinTab MM Driver
+exmouse.drv,*,*		; Kensington trackball
+mscmouse.drv,*,*	; Mouse Systems / Genius
+msc3bc2.drv,*,*
+*,mscvmd.386,*
+glide.drv,*,*		; GlidePoint
+
+
+; Win3.1 drivers to force upgrade
+; ---------------------------------------------------------
+[mouse.update.force]
+nomouse.drv,*,*
+yesmouse.drv,*,*
+
+
+; Device types to hide
+; ---------------------------------------------------------
+[ControlFlags]
+ExcludeFromSelect=*PNP0F13,SERENUM\PNP0F1E,*PNP0F13_Logi
+CopyFilesOnly=SERENUM\PNP0F0A,SERENUM\PNP0F1E,SERENUM\LGI8001,SERENUM\LGI8002,SERENUM\LGI800D,SERENUM\KML0001
+
+
+; Manufacturer Sections
+; ---------------------------------------------------------
+[Manufacturer]
+%CyMfg%	  =CyMfg		; Cypress Semiconductor
+
+[CyMfg]
+%USB\VID_04B4&PID_0001.DeviceDesc%=CYUSBMOUSE, USB\VID_04B4&PID_0001
+
+; Install Sections
+; ---------------------------------------------------------
+
+; -------------- (No mouse)
+[NoMouse]
+UpdateInis=NoMouse.Ini
+
+[NoMouse.Ini]
+system.ini,boot,,"mouse.drv=mouse.drv"
+system.ini,386Enh,,"mouse=*vmouse"
+system.ini,boot.description,,"mouse.drv=%NoMouse%"
+win.ini,windows,,"SkipMouseRedetect=1"
+
+
+;----------------Cypress USB Mouse
+
+[CYUSBMOUSE]
+CopyFiles=MS.Copy, Pointer.Copy, MSUSBMOUSE.Copy
+AddReg=MSUSBMOUSE.AddReg
+
+[MSUSBMOUSE.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,"hidusb.sys,mouhid.vxd"
+
+[MSUSBMOUSE.Copy]
+hidclass.sys
+hidusb.sys
+hidparse.sys
+mouhid.vxd
+
+; User visible strings
+; ---------------------------------------------------------
+
+[Strings]
+Provider="Cypress Semiconductor"
+MouseClassName="Mouse"
+
+; Mfg names
+
+CyMfg   ="Cypress Semiconductor"
+
+; Driver Names
+
+NoMouse="(No mouse)"
+CyMouse="Cypress Mouse"
+
+; Device Names
+
+USB\VID_04B4&PID_0001.DeviceDesc="Cypress USB Mouse"
+

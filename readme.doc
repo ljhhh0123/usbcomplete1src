@@ -1,0 +1,177 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f22\fswiss\fcharset238\fprq2 Arial CE;}{\f23\fswiss\fcharset204\fprq2 Arial Cyr;}{\f25\fswiss\fcharset161\fprq2 Arial Greek;}
+{\f26\fswiss\fcharset162\fprq2 Arial Tur;}{\f27\fswiss\fcharset186\fprq2 Arial Baltic;}{\f28\fmodern\fcharset238\fprq1 Courier New CE;}{\f29\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f31\fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f32\fmodern\fcharset162\fprq1 Courier New Tur;}{\f33\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\nowidctlpar\widctlpar\adjustright \cgrid \snext0 Normal;}{\s1\sb240\sa60\keepn\nowidctlpar\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 1;}{\s2\sb240\sa60\keepn\nowidctlpar\widctlpar\adjustright \b\i\f1\cgrid 
+\sbasedon0 \snext0 heading 2;}{\*\cs10 \additive Default Paragraph Font;}{\s15\fi720\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon0 \snext15 Manuscript;}{\s16\nowidctlpar\widctlpar\adjustright \f2\fs20\cgrid \sbasedon0 \snext16 Plain Text;}{
+\s17\nowidctlpar\widctlpar\adjustright \b\cgrid \sbasedon19 \snext17 H1;}{\s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid \sbasedon17 \snext18 H2;}{\s19\sa120\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon0 \snext19 Body Text;}{
+\s20\li576\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon19 \snext20 T2;}{\s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon0 \snext21 T3;}{\s22\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon20 \snext22 T1;}{
+\s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid \sbasedon18 \snext23 H3;}{\s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon21 \snext24 T4;}{\s25\li1728\nowidctlpar\widctlpar\adjustright \b\cgrid \sbasedon23 \snext25 H4;}{
+\s26\li2304\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon24 \snext26 T5;}}{\info{\title Contents of the CD-ROM that accompanies USB Complete}{\author Preferred Customer}{\operator Preferred Customer}{\creatim\yr1999\mo11\dy28\hr11\min44}
+{\revtim\yr1999\mo11\dy28\hr11\min44}{\version2}{\edmins1}{\nofpages4}{\nofwords536}{\nofchars3056}{\*\company Dell Computer Corporation}{\nofcharsws0}{\vern71}}
+\widowctrl\ftnbj\aenddoc\makebackup\hyphcaps0\formshade\viewkind4\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang
+{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\s1\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f1\fs28\kerning28\cgrid {\fs32 Contents of the CD-ROM that accompanies }{\i\fs32 USB Complete
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {
+\par The CD-ROM that accompanies the book }{\i USB Complete}{ contains two sections: a test application for HIDs, and documentation for Cypress Semiconductor's chips and development tools. This document describes the CD-ROM's contents.
+\par }\pard\plain \s1\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f1\fs28\kerning28\cgrid {The Book
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {The CD-ROM accompanies the book:
+\par USB Complete
+\par Everything You Need to Develop Custom USB Peripherals
+\par by Jan Axelson
+\par c. 1999
+\par Published by
+\par Lakeview Research
+\par 2209 Winnebago St.
+\par Madison, WI 53704
+\par Phone: 608-241-5824
+\par Fax: 608-241-5848
+\par http://www.lvr.com
+\par info@lvr.com
+\par 
+\par }\pard\plain \s1\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f1\fs28\kerning28\cgrid {Updates
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \cgrid {Any updates or enhancements to the HID application will be
+ available at Lakeview Research's website, at www.lvr.com. This is also the place to go for links to other USB documentation, samples, and tools, as well as additions and corrections to }{\i USB Complete}{
+. Updates and additions to the Cypress documentation will be available at Cypress' website, at www.cypress.com.
+\par 
+\par }\pard\plain \s1\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f1\fs28\kerning28\cgrid {CD-ROM Contents
+\par }\pard\plain \s22\nowidctlpar\widctlpar\adjustright \cgrid {Readme.doc. This file.
+\par }\pard\plain \s17\nowidctlpar\widctlpar\adjustright \b\cgrid {CypressSemiconductor
+\par }\pard\plain \s22\nowidctlpar\widctlpar\adjustright \cgrid {Documentation from Cypress Semicoductor.
+\par }\pard\plain \s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid {ApplicationNotes
+\par }\pard\plain \s20\li576\nowidctlpar\widctlpar\adjustright \cgrid {Application notes for Cypress chips.
+\par }\pard\plain \s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid {Kbps2.pdf. Keyboard.
+\par Por.pdf. Power-on Reset.
+\par Usbfc.pdf. Firmware considerations.
+\par Usbjoy.pdf. Joystick.
+\par Usbkbd.pdf. Keyboard. 
+\par Usbmouse.pdf. Mouse.
+\par Usbups.pdf. Uninterruptible power supply.
+\par }\pard\plain \s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid {Designs 
+\par }\pard\plain \s20\li576\nowidctlpar\widctlpar\adjustright \cgrid {Peripheral designs and related documentation.
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {Joystick 
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Cyjoy.inf
+\par Joyjit.doc 
+\par Js50.asm
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {Mouse
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Cymouse.inf
+\par Mouse45.asm
+\par Mouse45b.asm 
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {Ups
+\par }\pard\plain \s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid {(Uninterruptible power supply)
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Serialb.asm
+\par Ups17b.asm 
+\par }\pard\plain \s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid {DevelopmentTools
+\par }\pard\plain \s20\li576\nowidctlpar\widctlpar\adjustright \cgrid {Softuguide41.pdf. The user's guide for the M8 monitor program.
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {Assembler
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Cyasm.exe. The assembler.
+\par Cyasm177.pdf. Assembler documentation.
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {Cy3640StarterKit
+\par }\pard\plain \s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid {Documentation and files for the CY3640 Starter Kit.
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Schematics.pdf. Starter Kit schematic.
+\par Silkscreen.pdf. Printed-circuit board silkscreen. 
+\par Usbapp.pdf . Guide to the thermometer application and a USB tutorial.
+\par Usbuser.pdf. User's guide.
+\par }\pard\plain \s25\li1728\nowidctlpar\widctlpar\adjustright \b\cgrid {Thermometer
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {The driver for the thermometer application. Run setup.exe to install.
+\par }\pard\plain \s26\li2304\nowidctlpar\widctlpar\adjustright \cgrid {Apigid32.dl_
+\par Asycfilt.dl_
+\par Comcat.dl_
+\par Ctl3d32.dl_ 
+\par Msvbvm50.dl_
+\par Oleaut32.dl1
+\par Oleaut32.dl2
+\par Olepro32.dl_
+\par Setup.exe 
+\par Setup.lst 
+\par Setup1.ex_
+\par St5unst.ex_ 
+\par Stdole2.tl_ 
+\par Thermometer.de_ 
+\par Thermometer.ex_ 
+\par Vb5stkit.dl_
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {CY3650
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Documentation for the CY3650 Developer's Kit for the CY7C63000-series chips.
+\par Cy3650.pdf. General information.
+\par Cy3650_ug.pdf. User's guide.
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {Cy3651 
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Documentation for the CY3651 Developer's Kit for the CY7C63010-series chips.
+\par Cy3651_ug.pdf. User's guide.
+\par Keylogo.asm. Self-test code.
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {Cy3652 
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {Documentation for the CY3652 Developer's Kit for the CY7C64000/65000/66000-series chips.
+\par Quick_start_52.pdf. Quick start guide.
+\par Uguide52.pdf. User's guide.
+\par }\pard\plain \s23\li1152\nowidctlpar\widctlpar\adjustright \b\cgrid {M8Monitor
+\par }\pard\plain \s24\li1728\nowidctlpar\widctlpar\adjustright \cgrid {The M8 monitor program. Run setup.exe to install.
+\par Cm8mon41.ex_ 
+\par Comdlg16.oc_ 
+\par Compobj.dl_
+\par Ctl3dv2.dl_
+\par Dao2516.dl_
+\par Dbgrid16.oc_ 
+\par Dblist16.oc_ 
+\par Gauge16.oc_
+\par Grdkrn16.dl_ 
+\par Grid16.oc_ 
+\par M8config.tx_ 
+\par M8iotmp1.tx_ 
+\par M8iotmp2.tx_ 
+\par M8iotmpl.tx_ 
+\par Msajt200.dl1 
+\par Msajt200.dl2 
+\par Mscomm16.oc_ 
+\par Msjeterr.dl_ 
+\par Msjetint.dl_ 
+\par Oc25.dl_
+\par Ole2.dl_
+\par Ole2.re_
+\par Ole2conv.dl_ 
+\par Ole2disp.dl_ 
+\par Ole2nls.dl_
+\par Ole2prox.dl_ 
+\par Scp.dl_ 
+\par Setup.exe
+\par Setup.lst
+\par Setup1.ex_ 
+\par Stdole.tl_ 
+\par Stkit416.dl_ 
+\par Storage.dl1
+\par Storage.dl2
+\par Tabctl16.oc_ 
+\par Threed16.oc_ 
+\par Typelib.dl_
+\par Vaen21.ol_ 
+\par Vb40016.dl_
+\par Vbajet.dl_ 
+\par Vbdb16.dl_ 
+\par Vshare.38_ 
+\par }\pard\plain \s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid {FullSpeedChips
+\par }\pard\plain \s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid {Data sheets for Cypress' full-speed chips.
+\par Cy7c64011.pdf 
+\par Cy7c64213.pdf 
+\par Cy7c65000.pdf 
+\par Cy7c66000.pdf 
+\par }\pard\plain \s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid {LowSpeedChips
+\par }\pard\plain \s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid {Data sheets for Cypress' low-speed chips.
+\par Cy7c63000a.pdf
+\par Cy7c63400.pdf 
+\par Cy7c63612.pdf 
+\par }\pard\plain \s17\nowidctlpar\widctlpar\adjustright \b\cgrid {HidApplication 
+\par }\pard\plain \s20\li576\nowidctlpar\widctlpar\adjustright \cgrid {Documentation for a HID test application, including firmware and Visual-Basic code. Readme.doc has the details.
+\par Readme.doc.
+\par Usbhidio.inf
+\par }\pard\plain \s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid {CY7C63000
+\par }\pard\plain \s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid {Usbhidio.asm
+\par Usbhidio.hex
+\par Usbhidio.lst
+\par Usbhidio.rom
+\par }\pard\plain \s18\li576\nowidctlpar\widctlpar\adjustright \b\cgrid {VisualBasic
+\par }\pard\plain \s21\li1152\nowidctlpar\widctlpar\adjustright \cgrid {ApiDeclarations.bas 
+\par FrmMain.frm
+\par Usbhidio.exe
+\par Usbhidio.vbp
+\par }}
